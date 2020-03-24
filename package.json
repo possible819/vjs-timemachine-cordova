@@ -1,0 +1,45 @@
+{
+  "name": "xyz.timemachine.jaylee.app",
+  "displayName": "Time Machine",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-ios": "^5.1.1",
+    "cordova-plugin-file": "^6.0.1",
+    "cordova-plugin-spinner": "^1.1.0",
+    "cordova-plugin-statusbar": "^2.4.2",
+    "cordova-plugin-touchid": "^0.4.0",
+    "cordova-plugin-vibration": "^3.1.0",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "custom-plugin-alert": "file:../../../../others/cordova-plugins/CustomAlert",
+    "custom-plugin-local-notification": "file:../../../../others/cordova-plugins/CustomLocalNotification"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-spinner": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-touchid": {},
+      "cordova-plugin-vibration": {},
+      "custom-plugin-alert": {},
+      "custom-plugin-local-notification": {}
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "devDependencies": {
+    "cordova": "^9.0.0",
+    "cordova-icon": "^1.0.0",
+    "cordova-splash": "^1.0.0"
+  }
+}
