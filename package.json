@@ -5,11 +5,14 @@
   "description": "Time Machine hybrid web application wrapped by Apache Cordova",
   "main": "index.js",
   "scripts": {
-    "preinstall": "git clone https://github.com/possible819/cordova-plugins ./custom-plugins"
+    "preinstall": "git clone https://github.com/possible819/cordova-plugins ./custom-plugins",
+    "postinstall": "cordova platform add ios android"
   },
   "author": "Jay Lee <jaylee.possible@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-ios": "^5.1.1",
     "cordova-plugin-file": "^6.0.1",
     "cordova-plugin-spinner": "^1.1.0",
     "cordova-plugin-statusbar": "^2.4.2",
@@ -28,7 +31,10 @@
       "cordova-plugin-touchid": {},
       "cordova-plugin-vibration": {}
     },
-    "platforms": []
+    "platforms": [
+      "ios",
+      "android"
+    ]
   },
   "devDependencies": {
     "cordova": "^9.0.0",
