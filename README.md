@@ -10,5 +10,5 @@ Vanila JS Timemachine cordova project
 $ npm install
 ```
 
-Preinstall script will try to get custom plugins into \$PROJECT_ROOT/custom-plugins
-Postinstall script will add android & ios platforms
+Preinstall script will try to get custom plugins into \$PROJECT_ROOT/custom-plugins.
+Postinstall script will add android & ios platforms and plugins are required.
