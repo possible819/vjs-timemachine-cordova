@@ -4,17 +4,13 @@ Vanila JS Timemachine cordova project
 
 # 1. prerequisite
 
-1. Download custom plugins (https://github.com/possible819/cordova-plugins)
-
-```
-$ git clone https://github.com/possible819/cordova-plugins $PROJECT_HOME/custom-plugins
-```
-
-2. Install node modules
+1. Install node modules
 
 ```
 $ npm install
 ```
+
+Preinstall script will try to get custom plugins into \$PROJECT_ROOT/custom-plugins
 
 3. Check platoforms and Adding plaforms if there's no platform added
 

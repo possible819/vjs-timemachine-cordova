@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "description": "Time Machine hybrid web application wrapped by Apache Cordova",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "preinstall": "git clone https://github.com/possible819/cordova-plugins ./custom-plugins"
+  },
   "author": "Jay Lee <jaylee.possible@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
