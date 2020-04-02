@@ -10,15 +10,13 @@
     "platform:add": "npm run platform:add:ios && npm run platform:add:android",
     "platform:add:ios": "cordova platform add ios",
     "platform:add:android": "cordova platform add android",
-    "plugins:upgrade": "git -C ./custom-plugins pull && rm -rf ./platforms && npm run platform:add"
+    "plugins:upgrade": "git -C ./custom-plugins pull && rm -rf ./platforms ./plugins && npm run platform:add"
   },
   "author": "Jay Lee <jaylee.possible@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "cordova-android": "^8.1.0",
-    "cordova-ios": "^5.1.1",
     "cordova-plugin-file": "^6.0.1",
-    "cordova-plugin-spinner": "^1.1.0",
     "cordova-plugin-statusbar": "^2.4.2",
     "cordova-plugin-touchid": "^0.4.0",
     "cordova-plugin-vibration": "^3.1.0",
@@ -32,7 +30,6 @@
     "plugins": {
       "cordova-plugin-whitelist": {},
       "cordova-plugin-file": {},
-      "cordova-plugin-spinner": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-touchid": {},
       "cordova-plugin-vibration": {},
@@ -42,7 +39,6 @@
       "custom-plugin-open-setting-view": {}
     },
     "platforms": [
-      "ios",
       "android"
     ]
   },
